@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* for Phone */
+@media screen and (max-width:575px) {}
+
+/* For Tablet */
+@media screen and (min-width: 576px) and (max-width: 991px) {
+
+
+    .responsive-width {
+        width: 100%;
+    }
+
+    .title-width {
+        width: 65%;
+    }
+
+
+}
+
+/* for LG */
+@media screen and (min-width: 992px) {
+
+    .responsive-width {
+        width: 50%;
+    }
+
+    .title-width {
+        width: 60%;
+    }
+
+    .w-lg-75 {
+        width: 75%;
+    }
+
+    .w-lg-65 {
+        width: 65%;
+    }
+
+    .w-90 {
+        width: 90%;
+    }
+
+    .ms-lg-5 {
+        margin-left: 20px;
+    }
+}
