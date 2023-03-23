@@ -4,9 +4,25 @@
     box-sizing: border-box;
 }
 
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
 
 /* for Phone */
-@media screen and (max-width:575px) {}
+@media screen and (max-width:575px) {
+    .disabled-lg {
+        display: none;
+    }
+
+    .disabled-sm {
+        display: none;
+    }
+
+}
 
 /* For Tablet */
 @media screen and (min-width: 576px) and (max-width: 991px) {
@@ -20,7 +36,13 @@
         width: 65%;
     }
 
+    .disabled-lg {
+        display: none;
+    }
 
+    .disabled-md {
+        display: none;
+    }
 }
 
 /* for LG */
@@ -48,5 +70,13 @@
 
     .ms-lg-5 {
         margin-left: 20px;
+    }
+
+    .disabled-sm {
+        display: none;
+    }
+
+    .disabled-md {
+        display: none;
     }
 }
